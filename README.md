@@ -3,14 +3,14 @@
 
 ---
 
-## วัตถุประสงค์
+## 📌 วัตถุประสงค์ (Project Overview)
 ระบบตลาดนัดส่งต่อสิ่งของและหนังสือเรียนมือสองภายในมหาวิทยาลัย เป็น Web Application ที่จัดทำขึ้นเพื่อแก้ปัญหาการส่งต่อสิ่งของ/หนังสือเรียนผ่านกลุ่มโซเชียลทั่วไป ซึ่งมักประสบปัญหาโพสต์ถูกดันหาย ค้นหาตามรหัสวิชายาก และเสี่ยงต่อการถูกหลอกลวง 
 
 ระบบนี้ช่วยให้นักศึกษาและบุคลากรส่งต่อสิ่งของสภาพดีในราคาประหยัดหรือแจกฟรี ผ่านเครือข่ายที่ปลอดภัยภายในมหาวิทยาลัย
 
 ---
 
-##  คุณลักษณะเด่นของระบบ (Key Features)
+## ✨ คุณลักษณะเด่นของระบบ (Key Features)
 1. **Domain-Specific Authentication:** สมัครและเข้าสู่ระบบด้วย E-mail มหาวิทยาลัยเท่านั้น เพื่อยืนยันตัวตนคนภายในสถาบัน (UC-01)
 2. **Course Code Search & Filter:** ค้นหาหนังสือเรียนตามรหัสวิชา คณะ หรือหมวดหมู่สิ่งของได้อย่างรวดเร็ว (UC-03)
 3. **Embedded Chat & Location Pins:** ระบบแชทส่วนตัวพร้อมปักหมุดพิกัดจุดนัดรับ-ส่งมอบสินค้าภายในพื้นที่มหาวิทยาลัยบนแผนที่ (UC-04, UC-05)
@@ -30,12 +30,12 @@
 
 ## 👥 สมาชิกในทีมและการแบ่งหน้าที่ความรับผิดชอบ (Team Members & Roles)
 
-| ชื่อ-นามสกุล | บทบาท (Role) | โมดูลที่รับผิดชอบ |
+| ชื่อ-นามสกุล | บทบาทหน้าที่ (Role & Responsibilities) | โมดูลที่รับผิดชอบ |
 | :--- | :--- | :--- |
-| **นางสาวโสรญา สวรรค์งาม** | Project Manager / Product Owner (PO) | บริหารโครงการ, Requirement, Backlog (`docs/`) |
-| **นางสาวเกสรา ชำนิเขตกิจ** | UI/UX Designer & System Analyst | Wireframe/Figma, Database Schema (`frontend/`, `database/`) |
-| **นายวรชิต คำอินทา** | Full-Stack Developer (Lead Dev) | Auth, Listing, Search, Chat (`backend/`, `frontend/`) |
-| **นายปุรเชษฐ์ ศิริเขตรกิจ** | DevOps & QA Engineer | Rating/Review, Testing, Deployment (`tests/`, `backend/`) |
+| **นางสาวโสรญา สวรรค์งาม** | **UI/UX Designer & System Analyst:** ออกแบบ Wireframe/Prototype ด้วย Figma และออกแบบ Database Schema & API Endpoints | `frontend/`, `docs/` |
+| **นางสาวเกสรา ชำนิเขตกิจ** | **Project Manager / Product Owner (PO):** บริหารจัดการโครงการ, รวบรวม Requirement, ทำ Backlog และจัดลำดับความสำคัญของ User Stories | `docs/`, `database/` |
+| **นายวรชิต คำอินทา** | **DevOps & QA Engineer:** พัฒนาระบบ Rating/Review, ทดสอบระบบ (Testing), Deploy ระบบขึ้น Cloud Server และรวบรวม Feedback | `tests/`, `backend/` |
+| **นายปุรเชษฐ์ ศิริเขตรกิจ** | **Full-Stack Developer (Lead Dev):** พัฒนาระบบ Authentication, การลงประกาศ, ระบบค้นหา และระบบ Chat | `backend/`, `frontend/` |
 
 ---
 
